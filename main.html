@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Analisis De Algoritmos</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header id="main-header">
+        <nav class="nav-container">
+            <a href="main.html" class="home-icon-link">
+                <img src="/imagenes/logo esquina.png" alt="Inicio"> 
+            </a>
+
+            <div class="nav-links">
+                <a href="#teoria" class="nav-item">Algoritmos</a>
+                <a href="#grafos" class="nav-item">Grafos</a>
+            </div>
+        </nav>
+    </header>
+
+    <main class="center-content">
+        <img src="/imagenes/logaso.png" alt="Logo UCB" class="main-image">
+        
+        <div class="labels-container">
+            <h2>Analisis De Algoritmos</h2>
+            <p>Hecho por    : Hans Karel Carvajal Gutierrez</p>
+        </div>
+    </main>
+
+    </main>
+
+    <section class="cards-section" id="teoria">
+        <h2>Conceptos</h2>
+        
+        <div class="grid-container">
+            
+            <div class="flip-card">
+                <div class="flip-card-inner">
+                    <div class="flip-card-front">
+                        <h3>¿Que es un Algoritmo?</h3>
+                    </div>
+                    <div class="flip-card-back">
+                        <p>Es un conjuto ordenado y finito de operaciones que se deben seguir para resolver un problema</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="flip-card">
+                <div class="flip-card-inner">
+                    <div class="flip-card-front">
+                        <h3>¿Para que se utilizan los algoritmos?</h3>
+                    </div>
+                    <div class="flip-card-back">
+                        <p>En la programacion los algoritmos se usan de forma conjuta para crear programas</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="flip-card">
+                <div class="flip-card-inner">
+                    <div class="flip-card-front">
+                        <h3>¿Cuales son las caracteristicas de un algoritmo?</h3>
+                    </div>
+                    <div class="flip-card-back">
+                        <p><Ul>
+                            <li>Precisos</li>
+                            <li>Ordenados</li>
+                            <li>Finitos</li>
+                            <li>Concretos</li>
+                        </Ul></p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="flip-card">
+                <div class="flip-card-inner">
+                    <div class="flip-card-front">
+                        <h3>Introduccion a Algoritmos</h3>
+                    </div>
+
+                <div class="flip-card-back" style="padding: 0;"> <a href="https://www.youtube.com/watch?v=f10jKIslSUY&t=39s" target="_blank" style="display:block; height:100%; width:100%;">
+                
+                        <img src="https://img.youtube.com/vi/f10jKIslSUY/hqdefault.jpg" 
+                            alt="Ver Video" 
+                            style="width: 100%; height: 100%; object-fit: cover; border-radius: 15px;">
+                
+                        <span style="position:absolute; top:50%; left:50%; transform:translate(-50%, -50%); font-size:3rem; color:white; text-shadow: 0 0 10px black;">▶</span>
+                                        </a>
+
+                </div>
+                </div>
+            </div>
+
+            <div class="flip-card">
+    <div class="flip-card-inner">
+        <div class="flip-card-front">
+            <h3>Material Extra</h3>
+        </div>
+
+        <div class="flip-card-back" style="padding: 0;">
+            
+            <a href="https://www.youtube.com/watch?v=hQa9JTtq4Ok&t=341s" target="_blank" style="display:block; height:100%; width:100%; position: relative; text-decoration: none;">
+                
+                <img src="https://img.youtube.com/vi/hQa9JTtq4Ok/hqdefault.jpg" 
+                     alt="Miniatura BFS" 
+                     style="width: 100%; height: 100%; object-fit: cover; border-radius: 15px;">
+                
+                <span style="position:absolute; top:50%; left:50%; transform:translate(-50%, -50%); font-size:3rem; color:white; text-shadow: 0 0 10px rgba(0,0,0,0.8);">▶</span>
+            </a>
+
+        </div>
+    </div>
+</div>
+
+        </div>
+    </section>
+
+    <section id="grafos" class="graph-section">
+        <h2>Grafos</h2>
+        
+        <svg id="lienzo" width="800" height="500">
+            <defs>
+                <marker id="arrowhead" viewBox="0 0 6 4" refX="6" refY="2" 
+                        markerWidth="6" markerHeight="4" orient="auto">
+                    <polygon points="0 0, 6 2, 0 4" fill="#000" />
+                </marker>
+            </defs>
+        </svg>
+            
+            <button onclick="borrarLienzo()" class="btn-clear">Borrar</button>
+        </div>
+    </section>
+
+    <script src="script.js"></script>
+</body>
+</html>
